@@ -5,18 +5,19 @@
       "descripCorta" : "La Boquilla es un corregimiento pesquero de raíces afrocaribeñas situado en el punto más al norte de Cartagena",
       "puntuacion" : "Puntuación: 4",
       "temperatura" :  "35°C",
-      "urlpic" : "https://www.eluniversal.com.co/binrepository/1050x700/0c0/0d0/none/13704/UCTI/image_content_1987832_20190801144811.jpg"},
-      "latitud":, 10.471499,
-      "longitud":, -75.5169642,
-    {,
+      "urlpic" : "https://www.eluniversal.com.co/binrepository/1050x700/0c0/0d0/none/13704/UCTI/image_content_1987832_20190801144811.jpg",
+      "latitud": 10.471499,
+      "longitud": -75.5169642
+    },
+    
     {
       "nombre" : "Cerro San Felipe",
       "descripCorta" : "El Castillo San Felipe de Barajas es una fortificación localizada en la ciudad de Cartagena de Indias en Colombia. Su nombre real es Fuerte de San Felipe de Barajas. Está situado sobre un cerro llamado San Lázaro y fue construido en 1657 durante la época colonial española.",
       "puntuacion" : "Puntuación: 4",
       "temperatura" :  "35°C",
-      "urlpic" : "https://viajeronomada.com/wp-content/uploads/2017/07/castillosanfelipecartagenaindias.jpg"},
-      "latitud":, 10.4223613,
-      "longitud":, -75.5413233,
+      "urlpic" : "https://viajeronomada.com/wp-content/uploads/2017/07/castillosanfelipecartagenaindias.jpg",
+      "latitud": 10.4223613,
+      "longitud": -75.5413233
     },
     {
       "nombre" : "Isla Barú",
