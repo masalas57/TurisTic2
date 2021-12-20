@@ -22,12 +22,12 @@
         android:name="com.example.fragmentmodule.ui.detail.DetailFragment"
         android:label="Información"
         tools:layout="@layout/fragment_detail" >
-        <argument
-            android:name="poibogota"
-            app:argType="com.example.fragmentmodule.model.BogotaItem" />
         <action
             android:id="@+id/action_navigation_detail_to_mapsFragment"
             app:destination="@id/mapsFragment" />
+        <argument
+            android:name="poicartagena"
+            app:argType="com.example.fragmentmodule.model.CartagenaItem" />
     </fragment>
     <fragment
         android:id="@+id/navigation_preference"

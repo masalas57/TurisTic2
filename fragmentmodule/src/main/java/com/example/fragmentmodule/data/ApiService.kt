@@ -5,7 +5,7 @@ import retrofit2.http.GET
 
 interface ApiService {
 
-    @GET("MiguelVillada/Movil-Dev/bogota")
-    suspend fun getBogota(): Cartagena
+    @GET("masalas57/TurisTic2/cartagena")
+    suspend fun getCartagena(): Cartagena
 
 }

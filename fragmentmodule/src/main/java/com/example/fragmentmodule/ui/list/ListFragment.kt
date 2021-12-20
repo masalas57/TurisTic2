@@ -37,10 +37,10 @@ class ListFragment : Fragment() {
         listViewModel.getCartagenaFromServer()
 
         listViewModel.onCartagenaLoaded.observe(viewLifecycleOwner, { result ->
-            onBogotaLoadedSubscribe(result)
+            onCartagenaLoadedSubscribe(result)
         })
 
-        bogotaAdapter = CartagenaAdapter(listCartagena, onItemClicked = { onCartagenaClicked(it) } )
+        cartagenaAdapter = CartagenaAdapter(listCartagena, onItemClicked = { onCartagenaClicked(it) } )
 
         listBinding.cartagenaRecyclerView.apply{
             layoutManager = LinearLayoutManager(context)
@@ -52,12 +52,12 @@ class ListFragment : Fragment() {
 
     private fun onCartagenaLoadedSubscribe(result: ArrayList<CartagenaItem>?) {
         result?.let { listCartagena ->
-            bogotaAdapter.appendItems(listCartagena)
+            cartagenaAdapter.appendItems(listCartagena)
         }
     }
 
-    private fun onBogotaClicked(cartagena: CartagenaItem) {
-        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(poibogota = cartagena))
+    private fun onCartagenaClicked(cartagena: CartagenaItem) {
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(poicartagena = cartagena))
     }
 
 }

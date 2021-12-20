@@ -3,7 +3,7 @@ package com.example.fragmentmodule.ui.list
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.fragmentmodule.data.BogotaRepository
+import com.example.fragmentmodule.data.CartagenaRepository
 import com.example.fragmentmodule.model.Cartagena
 import com.example.fragmentmodule.model.CartagenaItem
 import com.google.gson.Gson
@@ -21,12 +21,12 @@ class ListViewModel : ViewModel() {
 
     fun getCartagenaFromServer(){
         GlobalScope.launch(Dispatchers.IO) {
-            cartagenaLoad.postValue(repository.getBogota())
+            cartagenaLoad.postValue(repository.getCartagena())
         }
     }
 
 
-    fun loadMockBogotaFromJson(cartagenaString: InputStream?) {
+    fun loadMockCartagenaFromJson(cartagenaString: InputStream?) {
         val cartagenaString = cartagenaString?.bufferedReader().use { it!!.readText() }
         val gson = Gson()
         cartagenaLoad.value = gson.fromJson(cartagenaString, Cartagena::class.java)

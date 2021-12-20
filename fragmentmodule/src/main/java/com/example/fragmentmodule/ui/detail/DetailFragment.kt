@@ -31,16 +31,16 @@ class DetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val bogota = args.poibogota
+        val cartagena = args.poicartagena
 
         with(detailBinding){
-            nombreTextView.text = bogota.nombre
-            Picasso.get().load(bogota.urlpic).into(imagenImageView)
-            contenidoTextView.text = bogota.contenido
-            tempTextView.text = bogota.temperatura
+            nombreTextView.text = cartagena.nombre
+            Picasso.get().load(cartagena.urlpic).into(imagenImageView)
+            contenidoTextView.text = cartagena.contenido
+            tempTextView.text = cartagena.temperatura
 
             mapButton.setOnClickListener {
-                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment(posicionPunto = bogota))
+                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment(posicionPunto = cartagena))
             }
         }
     }
