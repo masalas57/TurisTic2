@@ -1,0 +1,34 @@
+package com.example.fragmentmodule.ui.list
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import com.example.fragmentmodule.data.BogotaRepository
+import com.example.fragmentmodule.model.Cartagena
+import com.example.fragmentmodule.model.CartagenaItem
+import com.google.gson.Gson
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+import java.io.InputStream
+
+class ListViewModel : ViewModel() {
+
+    private var cartagenaLoad : MutableLiveData<ArrayList<CartagenaItem>> = MutableLiveData()
+    val onCartagenaLoaded: LiveData<ArrayList<CartagenaItem>> = cartagenaLoad
+
+    private val repository = CartagenaRepository()
+
+    fun getCartagenaFromServer(){
+        GlobalScope.launch(Dispatchers.IO) {
+            cartagenaLoad.postValue(repository.getBogota())
+        }
+    }
+
+
+    fun loadMockBogotaFromJson(cartagenaString: InputStream?) {
+        val cartagenaString = cartagenaString?.bufferedReader().use { it!!.readText() }
+        val gson = Gson()
+        cartagenaLoad.value = gson.fromJson(cartagenaString, Cartagena::class.java)
+    }
+}

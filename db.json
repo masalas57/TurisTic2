@@ -1,0 +1,54 @@
+{
+  "bogota": [
+    {
+      "nombre": "Monserrate",
+      "descripCorta": "El cerro de Monserrate es el más conocido de los cerros Orientales de Bogotá. Junto a Guadalupe es uno de los cerros tutelares de la ciudad.",
+      "puntuacion": "Puntuación: 4.5",
+      "urlpic": "https://monserrate.co/wp-content/uploads/2019/10/cerro-monserrate.jpg",
+      "contenido": "El cerro de Monserrate es el más conocido de los cerros Orientales de Bogotá. Junto a Guadalupe es uno de los cerros tutelares de la ciudad. Monserrate tiene una altitud de 3152 m y se ubica sobre la cordillera oriental. La basílica del Señor de Monserrate ha sido lugar de peregrinación religiosa desde la época colonial y se constituye en un atractivo natural, religioso, gastronómico de la ciudad. Se puede ascender al cerro por el sendero peatonal, por teleférico o por funicular.",
+      "temperatura": "10ºC",
+      "latitud": 4.605833,
+      "longitud": -74.056389
+    },
+    {
+      "nombre": "Chorro de Quevedo",
+      "descripCorta": "Aquí comenzó todo: en la plazoleta del Chorro de Quevedo se cree que se fundó Bogotá el 6 de agosto de 1538.",
+      "puntuacion": "Puntuación: 4",
+      "urlpic": "https://www.sitiosturisticosbogota.com/wp-content/uploads/2018/11/chorro-de-quevedo.jpg",
+      "contenido": "La plazoleta del Chorro de Quevedo es un lugar público de Bogotá. En este lugar estableció su guarnición militar Gonzalo Jiménez de Quesada, antes de fundar la ciudad en este mismo lugar en 1538. Está ubicada en la calle 12B con carrera 2, en pleno centro histórico de la ciudad. Se encuentra enmarcada por construcciones coloniales y de principios del siglo XX. Según los cronistas, el sitio que ocupa el Chorro de Quevedo era desde donde el zipa muisca observaba toda la sabana de Bogotá.",
+      "temperatura": "12ºC",
+      "latitud": 4.597726,
+      "longitud": -74.069693
+    },
+    {
+      "nombre": "Plaza de Bolívar",
+      "descripCorta": "Ubicada en el centro de Bogotá, la Plaza de Bolívar es la principal plaza de la ciudad, siendo declarada como Monumento Nacional Colombiano.",
+      "puntuacion": "Puntuación: 4.8",
+      "urlpic": "https://www.utadeo.edu.co/sites/tadeo/files/node/news/field_images/portada.foto_.hanz_.rippe_.idpc_.plaza_.de_.bolivar_0.jpg",
+      "contenido": "La plaza de Bolívar es la plaza principal de la ciudad de Bogotá y de Colombia. Está ubicada en el centro de la ciudad, entre las carreras Séptima y Octava con calles Décima y Once. A su alrededor se encuentran algunos de los principales edificios de la ciudad: al norte el Palacio de Justicia, al sur el Capitolio Nacional, al oriente la Catedral Basílica Metropolitana de Bogotá y Primada de Colombia, la Casa del Cabildo Eclesiástico, la Capilla del Sagrario de Catedral Basílica Metropolitana y el Palacio Arzobispal y al occidente el Palacio Liévano, sede de la Alcaldía Mayor de Bogotá, y al suroriente el Colegio Mayor de San Bartolomé (Bogotá) de los jesuitas. ",
+      "temperatura": "15ºC",
+      "latitud": 4.59806,
+      "longitud": -74.0758
+    },
+    {
+      "nombre": "Parque Simón Bolívar",
+      "descripCorta": "El Parque Metropolitano Simón Bolívar es el parque urbano más grande e importante de la ciudad de Bogotá.",
+      "puntuacion": "Puntuación: 3.8",
+      "urlpic": "https://bogota.gov.co/sites/default/files/styles/1050px/public/field/image/simon-bolivar.jpg",
+      "contenido": "El Parque Metropolitano Simón Bolívar es el parque urbano más grande e importante de la ciudad de Bogotá,2\u200B se encuentra ubicado en el centro geográfico de Bogotá, (Colombia) en la localidad de Barrios Unidos. Es surcado por las avenidas Carrera 60, Carrera 68 de oriente a occidente y las calles 63 y 53; es bastante popular entre los bogotanos quienes lo visitan a diario. Aunque el parque metropolitano se compone de varios parques, los bogotanos tienden a referirse a cada uno de estos parques de forma separada y no los asocian con un solo \"megaparque\". ",
+      "temperatura": "17ºC",
+      "latitud": 4.65805556,
+      "longitud": -74.09388889
+    },
+    {
+      "nombre": "Barrio La Candelaria",
+      "descripCorta": "El barrio La Candelaria es el hito mas importantes del centro historico de Bogota , se ubica en el lugar fundacional en el centro oriente de la ciudad.",
+      "puntuacion": "Puntuación: 5",
+      "urlpic": "https://www.viviendocali.com/wp-content/uploads/2017/11/La-Candelaria-en-Bogot%C3%A1.jpg",
+      "contenido": "La Candelaria es la localidad número 17 del Distrito Capital de Bogotá, capital de Colombia, ubicada en el centro-oriente de la ciudad de Bogotá, está conformada por los barrios La Catedral, La Concordia, Las Aguas, Centro Administrativo, Egipto, Belén, San Francisco Rural, Nueva Santa Fe y Santa Bárbara. Allí se fundó la ciudad el 6 de agosto de 1538 y se construyó la primera iglesia, esta localidad abarca el centro histórico de Bogotá, además un importante centro turístico, educativo y comercial.",
+      "temperatura": "11ºC",
+      "latitud": 4.591722,
+      "longitud": -74.074131
+    }
+  ]
+}

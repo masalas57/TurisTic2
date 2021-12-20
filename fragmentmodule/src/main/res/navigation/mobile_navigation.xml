@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_list">
+
+    <fragment
+        android:id="@+id/navigation_list"
+        android:name="com.example.fragmentmodule.ui.list.ListFragment"
+        android:label="Listado"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_detailFragment"
+            app:destination="@id/navigation_detail" />
+        <action
+            android:id="@+id/action_listFragment_to_settingsFragment"
+            app:destination="@id/navigation_preference" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_detail"
+        android:name="com.example.fragmentmodule.ui.detail.DetailFragment"
+        android:label="Información"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="poibogota"
+            app:argType="com.example.fragmentmodule.model.BogotaItem" />
+        <action
+            android:id="@+id/action_navigation_detail_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_preference"
+        android:name="com.example.fragmentmodule.ui.preference.SettingsFragment"
+        android:label="Preferencias" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.example.fragmentmodule.maps.MapsFragment"
+        android:label="Ubicación"
+        tools:layout="@layout/fragment_maps" >
+        <argument android:name="posicionPunto"
+            app:argType="com.example.fragmentmodule.model.BogotaItem" />
+    </fragment>
+        <argument
+            android:name="posicionPunto"
+            app:argType="com.example.fragmentmodule.model.BogotaItem" />
+</navigation>
